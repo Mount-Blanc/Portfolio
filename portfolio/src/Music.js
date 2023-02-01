@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import SpaceInvaders from './SpaceInvaders.mp3'
-
+import './Music.css'
 const Music = () => {
   const [isPlaying, setIsPlaying] = useState(false);
   const [isMuted, setIsMuted] = useState(true);
