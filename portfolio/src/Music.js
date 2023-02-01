@@ -3,19 +3,21 @@ import SpaceInvaders from './SpaceInvaders.mp3'
 
 const Music = () => {
   const [isPlaying, setIsPlaying] = useState(false);
+  const [isMuted, setIsMuted] = useState(true);
 
   const handlePlay = () => {
     setIsPlaying(true);
   };
 
-  const handlePause = () => {
-    setIsPlaying(false);
+  const handleMute = () => {
+    setIsMuted(!isMuted);
   };
 
   return (
     <div>
-      <audio controls autoPlay src={SpaceInvaders}  onPlay={handlePlay} onPause={handlePause} />
-       {isPlaying ? <p>Now playing</p> : <p>Paused</p>}
+      {/* <button onClick={handlePlay}>Play</button> */}
+      <button onClick={handleMute}>{isMuted ? "Unmute" : "Mute"}</button>
+        <audio  autoPlay loop muted={isMuted} src={SpaceInvaders} />
     </div>
   );
 };
