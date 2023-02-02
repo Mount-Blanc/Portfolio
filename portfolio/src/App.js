@@ -15,10 +15,11 @@ function App() {
   }, []);
 
   return (
-    <div >
     <div className='crt'>
+    <h1 >
     Welcome
-    </div>{isVisible &&<div className='press-to-play'>
+    </h1>
+    {isVisible &&<div className='press-to-play'>
     Press any key to play
     </div>}
     

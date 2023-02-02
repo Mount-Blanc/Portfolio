@@ -10,6 +10,10 @@ body {
   text-transform: uppercase; 
   background-color: black;
   }
+h1 {
+
+}
+
   .press-to-play {
     padding:.3rem 1.5rem;
     border: 2px solid white;
@@ -178,4 +182,5 @@ body {
   .crt {
     animation: textShadow 1.6s infinite;
   }
+
   
