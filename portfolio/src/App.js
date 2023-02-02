@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Music from './Music';
 import React, { useState, useEffect } from "react";
+import Home from './Home';
 
 function App() {
   const [isVisible, setIsVisible] = useState(false);
@@ -22,6 +23,7 @@ function App() {
     </div>}
     
     <Music/>
+    <Home/>
     </div>
   );
 }
