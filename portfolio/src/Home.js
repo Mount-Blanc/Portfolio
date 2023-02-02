@@ -1,3 +1,5 @@
+import spaceinvader from './space-invader.svg'
+import './Home.css'
 function Home () {
     return(
         <div>
@@ -5,9 +7,9 @@ function Home () {
             <h3>*score advance table*</h3>
             <ul>
                 <li>
-                    = <a href=''>about </a>
-                    = <a href=''>projects </a>
-                    = <a href=''>contact </a>
+                  <img src={spaceinvader}/> = <a href=''>about </a>
+                  <img src={spaceinvader}/>= <a href=''>projects </a>
+                  <img src={spaceinvader}/> = <a href=''>contact </a>
                 </li>
             </ul>
         </div>
