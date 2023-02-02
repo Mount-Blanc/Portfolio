@@ -14,9 +14,9 @@ function App() {
   }, []);
 
   return (
-    <div>
-    <div className="App">
-    Hello
+    <div >
+    <div className='crt'>
+    Welcome
     </div>{isVisible &&<div className='press-to-play'>
     Press any key to play
     </div>}
