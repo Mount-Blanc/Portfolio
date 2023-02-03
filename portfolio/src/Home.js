@@ -1,4 +1,3 @@
-import spaceinvader from './space-invader.svg'
 import './Home.css'
 function Home () {
     return(
@@ -14,8 +13,8 @@ function Home () {
             <ul>
                 <li>
                   <div className='space-invader space-invader-1 classic'></div> = <a href=''>about </a>
-                  <img src={spaceinvader}/>= <a href=''>projects </a>
-                  <img src={spaceinvader}/> = <a href=''>contact </a>
+                 = <a href=''>projects </a>
+                  = <a href=''>contact </a>
                 </li>
             </ul>
         </div>
