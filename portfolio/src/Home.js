@@ -2,7 +2,7 @@ import './Home.css'
 function Home () {
     return(
         <div >
-            <p>I'm passionate about learning emerging web technologies. Although I'm aiming for a front-end position I also study the backend so 
+            <p>I'm passionate about building things with emerging web technologies. Although I'm aiming for a front-end position I also study the backend so 
                 I can have a complete understanding of the whole picture.
                 When I am not studying programming I like to study videogame UI's,read books, and watch movies. I'm proud of my small but growing collection of movie DVD's</p>
             <h3>*score advance table*</h3>
