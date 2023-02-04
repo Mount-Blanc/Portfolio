@@ -1,16 +1,25 @@
 function Projects () {
     const projects = [
             {
-              name: 'Project 1',
+              name: 'CountryInfo',
               image: 'project1.jpg',
-              link: 'https://github.com/user/project1'
+              link: 'https://github.com/Mount-Blanc/CountryInfo'
             },
             {
-              name: 'Project 2',
+              name: 'Let-Us-Faire',
               image: 'project2.jpg',
-              link: 'https://github.com/user/project2'
+              link: 'https://github.com/Mount-Blanc/Let-Us-Faire'
             },
-            // Add more projects here
+            {
+                name: 'E-Commerce',
+                image: 'project2.jpg',
+                link: 'https://github.com/Mount-Blanc/E-commerce'
+              },
+              {
+                name: 'Project 4',
+                image: 'project2.jpg',
+                link: 'https://github.com/user/project2'
+              },
           ];
        
           return (
