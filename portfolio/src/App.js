@@ -13,25 +13,25 @@ import {
 
 import Root from './Root';
 
-const router = createBrowserRouter(
-  createRoutesFromElements(
-    <Route path="/" element={<Root />}>
-    </Route>
-  )
-);
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Root />,
+  },     
+   {
+        path: "home",
+        element: <Home />,
+      },
+    ],
+    );
+
 
 
 
 function App() {
  
   return (
-    <RouterProvider router={router}>
-    
-    <Music/>
-    <Home/>
-    <Skills/>
-    <Projects/>
-</RouterProvider>
+    <RouterProvider router={router}/>    
   );
 }
 

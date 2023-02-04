@@ -12,8 +12,10 @@ function Root () {
       return () => clearInterval(intervalId);
     }, []);
   
+
+    
     return (
-            <div className='crt'>
+  <div className='crt'>
     <h1 >
     Welcome
     </h1>
