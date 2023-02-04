@@ -1,9 +1,8 @@
 import './App.css';
-import Music from './Music';
+import Music from './components/Music';
 import React from "react";
-import Home from './Home';
-import Skills from './Skills';
-import Projects from './Projects';
+import Home from './components/Home';
+
 import {
   createBrowserRouter,
   RouterProvider,
@@ -11,8 +10,8 @@ import {
   createRoutesFromElements
 } from "react-router-dom";
 
-import Root from './Root';
-import Welcome from './Welcome';
+import Root from './components/Root';
+import Welcome from './components/Welcome';
 
 const router = createBrowserRouter([
   {

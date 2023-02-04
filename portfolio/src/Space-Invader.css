@@ -1,0 +1,33 @@
+  /* Define the styling for the aliens */
+  .aliens-container {
+    height: 100vs;
+    position: relative;
+  }
+  
+  .alien {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left:0;
+    animation: move-aliens 3s linear infinite;
+  }
+  /* Create the keyframes for the aliens' movement */
+  @keyframes move-aliens {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(100%);
+    }
+  }
+  /* Style the individual aliens */
+  .alien1 {
+    background-color: green;
+    left: 0;
+  }
+  .alien2 {
+    background-color: green;
+    left: 50px;
+  }
+

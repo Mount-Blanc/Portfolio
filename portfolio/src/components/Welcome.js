@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Spaceinvader from "../Space-Invader";
 import './Welcome.css'
 
 function Welcome () {
@@ -9,7 +10,7 @@ function Welcome () {
     useEffect(() => {
       const intervalId = setInterval(() => {
         setIsVisible(prevIsVisible => !prevIsVisible);
-      }, 700);
+      }, 900);
       return () => clearInterval(intervalId);
     }, []);
   
@@ -23,7 +24,7 @@ function Welcome () {
     <h2>My Name is Wilson ramos and i am an aspiring front-end web developer</h2>
 
     {isVisible &&< a href='/home' className='press-to-play'>
-    Press any key to play
+    Press Me
     </a>}
         </div>
     )
