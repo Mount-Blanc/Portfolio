@@ -1,4 +1,8 @@
 import './Home.css'
+
+import Skills from './Skills'
+import Projects from './Projects'
+
 function Home () {
     return(
         <div >
@@ -18,6 +22,9 @@ function Home () {
                 <span className='space-invader space-invader-2 classic'></span>=<a href=''>contact </a>
                 </li>
             </ul>
+
+        <Skills/>
+        <Projects/>
         </div>
     )
 }

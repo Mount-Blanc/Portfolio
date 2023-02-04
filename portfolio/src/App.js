@@ -12,16 +12,24 @@ import {
 } from "react-router-dom";
 
 import Root from './Root';
+import Welcome from './Welcome';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
-  },     
-   {
-        path: "home",
+    children: [
+      {
+        path:"/",
+        element:<Welcome/>
+      },
+         {
+        path: "/home",
         element: <Home />,
       },
+    ]
+  },     
+
     ],
     );
 
