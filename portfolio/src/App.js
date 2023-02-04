@@ -1,36 +1,37 @@
 import './App.css';
 import Music from './Music';
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Home from './Home';
 import Skills from './Skills';
 import Projects from './Projects';
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+  createRoutesFromElements
+} from "react-router-dom";
+
+import Root from './Root';
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<Root />}>
+    </Route>
+  )
+);
+
+
 
 function App() {
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      setIsVisible(prevIsVisible => !prevIsVisible);
-    }, 700);
-    return () => clearInterval(intervalId);
-  }, []);
-
+ 
   return (
-    <div className='crt'>
-    <h1 >
-    Welcome
-    </h1>
-    <h2>My Name is Wilson ramos and i am an aspiring front-end web developer</h2>
-
-    {isVisible &&<div className='press-to-play'>
-    Press any key to play
-    </div>}
+    <RouterProvider router={router}>
     
     <Music/>
     <Home/>
     <Skills/>
     <Projects/>
-    </div>
+</RouterProvider>
   );
 }
 
