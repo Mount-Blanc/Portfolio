@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Navigation from "./Navigation";
 
 
 function Root () {
@@ -13,9 +14,10 @@ function Root () {
     }, []);
   
 
-    
+
     return (
   <div className='crt'>
+    <Navigation/>
     <h1 >
     Welcome
     </h1>
