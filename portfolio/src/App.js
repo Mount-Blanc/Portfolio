@@ -3,6 +3,7 @@ import Music from './Music';
 import React, { useState, useEffect } from "react";
 import Home from './Home';
 import Skills from './Skills';
+import Projects from './Projects';
 
 function App() {
   const [isVisible, setIsVisible] = useState(false);
@@ -28,6 +29,7 @@ function App() {
     <Music/>
     <Home/>
     <Skills/>
+    <Projects/>
     </div>
   );
 }
