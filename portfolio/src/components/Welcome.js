@@ -10,7 +10,7 @@ function Welcome () {
     useEffect(() => {
       const intervalId = setInterval(() => {
         setIsVisible(prevIsVisible => !prevIsVisible);
-      }, 900);
+      }, 1000);
       return () => clearInterval(intervalId);
     }, []);
   
