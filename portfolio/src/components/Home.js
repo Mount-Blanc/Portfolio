@@ -2,10 +2,29 @@ import './Home.css'
 
 import Skills from './Skills'
 import Projects from './Projects'
-
+import {useState,useEffect} from 'react'
 function Home () {
+    const [scrollPosition, setScrollPosition] = useState(0);
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+      }, []);
+      
+      const handleScroll = () => {
+        setScrollPosition(window.pageYOffset);
+      };
+      
+
+      const styles = {
+        background: `linear-gradient(to bottom, 
+          rgba(0,0,0, ${scrollPosition / 1000}), 
+          rgba(0, 0, 255, ${scrollPosition / 1000}))`
+      };
+
+
     return(
-        <div >
+        <div style={styles} >
             <p>I'm passionate about building things with emerging web technologies. Although I'm aiming for a front-end position I also study the backend so 
                 I can have a complete understanding of the whole picture.
                 When I am not studying programming I like to study videogame UI's,read books, and watch movies. I'm proud of my small but growing collection of movie DVD's</p>
