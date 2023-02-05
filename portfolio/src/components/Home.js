@@ -42,7 +42,7 @@ function Home () {
                 </li>
             </ul>
 
-        <Skills/>
+        <Skills className='skills' />
         <Projects/>
         </div>
     )

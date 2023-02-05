@@ -1,5 +1,10 @@
+
+.spacing {
+    margin: 4rem;
+}
 img {
     height:100px;
+    padding:2rem;
 }
 
 .white-background {
