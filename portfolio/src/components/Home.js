@@ -1,5 +1,5 @@
 import './Home.css'
-
+import Animation from './Animation'
 import Skills from './Skills'
 import Projects from './Projects'
 import {useState,useEffect} from 'react'
@@ -18,8 +18,8 @@ function Home () {
 
       const styles = {
         background: `linear-gradient(to bottom, 
-          rgba(0,0,0, ${scrollPosition / 1000}), 
-          rgba(0, 0, 255, ${scrollPosition / 1000}))`
+          rgba(0,0,0, ${scrollPosition / 50}), 
+          rgba(30, 139, 195, ${scrollPosition /10}))`
       };
 
 
@@ -42,8 +42,9 @@ function Home () {
                 </li>
             </ul>
 
-        <Skills className='skills' />
+        <Skills  />
         <Projects/>
+        <Animation/>
         </div>
     )
 }

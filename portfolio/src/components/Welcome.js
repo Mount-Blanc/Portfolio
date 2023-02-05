@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Spaceinvader from "../Space-Invader";
 import './Welcome.css'
-
+import Animation from "./Animation";
 function Welcome () {
 
     
@@ -15,7 +15,6 @@ function Welcome () {
     }, []);
   
 
-
     return(
        < div className='stars crt typewriter'>
     <h1 >
@@ -23,9 +22,7 @@ function Welcome () {
     </h1>
     <h2>My Name is Wilson ramos and i am an aspiring front-end web developer</h2>
 
-    {isVisible &&< a href='/home' className='press-to-play'>
-    Press Me
-    </a>}
+    {/* {isVisible && } */}
         </div>
     )
 }

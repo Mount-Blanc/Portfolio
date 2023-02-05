@@ -12,6 +12,7 @@ import {
 
 import Root from './components/Root';
 import Welcome from './components/Welcome';
+import Transition from './components/Animation';
 
 const router = createBrowserRouter([
   {
@@ -27,7 +28,7 @@ const router = createBrowserRouter([
         element: <Home />,
       },
     ]
-  },     
+  },   
 
     ],
     );
