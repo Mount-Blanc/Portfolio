@@ -11,6 +11,7 @@ function Home () {
 
     return(
         <div   >
+          <h1>About Me</h1>
             <p>I'm passionate about building things with emerging web technologies. Although I'm aiming for a front-end position I also study the backend so 
                 I can have a complete understanding of the whole picture.
                 When I am not studying programming I like to study videogame UI's,read books, and watch movies. I'm proud of my small but growing collection of movie DVD's</p>

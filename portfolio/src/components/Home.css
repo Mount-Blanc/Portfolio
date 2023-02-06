@@ -1,8 +1,12 @@
 body{
-  background-color: #A9C2CB;
+  background-color: #231C07;
 }
 img {
     height:30px;
+}
+
+h1 {
+ color: rgba(158,24,31,255)
 }
 
 li {
