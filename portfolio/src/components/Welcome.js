@@ -35,7 +35,7 @@ function Welcome () {
     <h1 >
     Welcome
     </h1>
-    <p>My Name is<p>Wilson Ramos</p>and i am an aspiring front-end web developer</p>
+    <p>My Name is <span className="name">Wilson Ramos</span> and i am an aspiring front-end web developer</p>
 
      {isVisible && 
      (<button onClick={clickHandler}>Click me</button>)} 

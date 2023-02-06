@@ -2,6 +2,8 @@ import './Home.css'
 import Skills from './Skills'
 import Projects from './Projects'
 import {useState,useEffect} from 'react'
+import Animation from './Animation'
+
 function Home () {
     const [scrollPosition, setScrollPosition] = useState(0);
 
@@ -43,6 +45,7 @@ function Home () {
 
         <Skills  />
         <Projects/>
+        <Animation/>
         </div>
     )
 }

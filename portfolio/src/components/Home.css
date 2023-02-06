@@ -24,48 +24,8 @@ ul {
     float: left;
     margin-right: 50px;
 }
-  .space-invader-defender {
-    box-shadow: 
-      0 0 0 .25em #fff,
-      .625em 0 0 .25em #fff,
-      -.625em 0 0 .25em #fff,
-      1em .0625em 0 .1875em #fff,
-      -1em .0625em 0 .1875em #fff,
-      0 -.25em 0 .25em #fff,
-      0 -.625em 0 0 #fff;
-  }
-  .space-invader-ufo {
-    box-shadow: 
-      /* Body */
-      -.25em -.625em 0 .125em #fff,
-      .25em -.625em 0 .125em #fff,
-      -.25em -.375em 0 .125em #fff,
-      -.75em -.375em 0 .125em #fff,
-      -1em -.375em 0 .125em #fff,
-      .25em -.375em 0 .125em #fff,
-      .75em -.375em 0 .125em #fff,
-      1em -.375em 0 .125em #fff,
-      0 .125em 0 .125em #fff,
-      -.75em .125em 0 .125em #fff,
-      .75em .125em 0 .125em #fff,
-      -.375em .25em 0 0 #fff,
-      -1.125em .25em 0 0 #fff,
-      .375em .25em 0 0 #fff,
-      1.125em .25em 0 0 #fff,
-      1.375em -.25em 0 0 #fff,
-      1.5em .125em 0 .125em #fff,
-      1.875em .25em 0 0 #fff,
-      -1.375em -.25em 0 0 #fff,
-      -1.5em .125em 0 .125em #fff,
-      -1.875em .25em 0 0 #fff,
-      0 .375em 0 .125em #fff,
-      1.25em .375em 0 .125em #fff,
-      1em .375em 0 .125em #fff,
-      1.125em .75em 0 0 #fff,
-      -1.25em .375em 0 .125em #fff,
-      -1em .375em 0 .125em #fff,
-      -1.125em .75em 0 0 #fff;
-  }
+ 
+  
   .space-invader-1 {
     box-shadow:
       0 0 0 .25em #fff,
