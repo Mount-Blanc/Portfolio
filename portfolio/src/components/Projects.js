@@ -24,6 +24,7 @@ function Projects () {
        
           return (
             <div className="my-projects">
+              <h1>My Projects</h1>
               {projects.map((project) => (
                 <div className="project" key={project.name}>
                   <h3>{project.name}</h3>
