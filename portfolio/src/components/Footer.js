@@ -1,7 +1,7 @@
 function Footer () {
     return(
         <div>
-            Github
+           <a target="_blank" rel="noopener noreferrer" href='https://github.com/Mount-Blanc'>Github</a> 
         </div>
     )
 }

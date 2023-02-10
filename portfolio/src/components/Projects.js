@@ -1,3 +1,7 @@
+import Card from './Card'
+
+
+
 function Projects () {
     const projects = [
             {
@@ -26,12 +30,12 @@ function Projects () {
             <div className="my-projects">
               <h1>My Projects</h1>
               {projects.map((project) => (
-                <div className="project" key={project.name}>
+                <Card className="project" key={project.name}>
                   <h3>{project.name}</h3>
                   <a href={project.link}>
                     <img src={project.image} alt={project.name} />
                   </a>
-                </div>
+                </Card>
               ))}
             </div>
           );
