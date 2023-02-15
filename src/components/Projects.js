@@ -1,22 +1,24 @@
 import Card from './Card'
-
+import CountryInfo from '../assets/imgs/CountryInfo.png'
+import Ecommerce from '../assets/imgs/E-commerce.png'
+import letusfaire from '../assets/imgs/letusfaire.png'
 
 
 function Projects () {
     const projects = [
             {
               name: 'CountryInfo',
-              image: 'project1.jpg',
+              image: CountryInfo,
               link: 'https://github.com/Mount-Blanc/CountryInfo'
             },
             {
               name: 'Let-Us-Faire',
-              image: 'project2.jpg',
+              image: Ecommerce,
               link: 'https://github.com/Mount-Blanc/Let-Us-Faire'
             },
             {
                 name: 'E-Commerce',
-                image: 'project2.jpg',
+                image: letusfaire,
                 link: 'https://github.com/Mount-Blanc/E-commerce'
               },
               {

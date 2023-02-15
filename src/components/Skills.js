@@ -20,12 +20,12 @@ function Skills ()  {
           
 
 
-             <img className='white-background' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
+             <img  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
                     
                     
           
              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain-wordmark.svg" />
-              <img className='white-background' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
+              <img  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain-wordmark.svg" />
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain-wordmark.svg" />
       
