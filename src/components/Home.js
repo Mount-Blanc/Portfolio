@@ -1,8 +1,6 @@
 import './Home.css'
 import Skills from './Skills'
 import Projects from './Projects'
-import {useState,useEffect} from 'react'
-import Animation from './Animation'
 import Footer from './Footer'
 import Cloud from './Cloud/Cloud'
 import Cloud2 from './Cloud/Cloud2'

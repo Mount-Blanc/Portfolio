@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
-import Spaceinvader from "../Space-Invader";
 import "./Welcome.css";
 import Animation from "./Animation";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Welcome() {
   const navigate = useNavigate();

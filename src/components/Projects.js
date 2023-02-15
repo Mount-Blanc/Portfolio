@@ -121,7 +121,7 @@ function Projects() {
         />
       ),
       description:
-      "A fictional E-commerce website. This was a case study on shopping carts. The data is from a rest api"
+        "A fictional E-commerce website. This was a case study on shopping carts. The data is from a rest api",
     },
     {
       name: "Coming Soon",
