@@ -10,7 +10,7 @@ function Home () {
 
 
     return(
-        <div   >
+        <div className='background'   >
           <h1>About Me</h1>
             <p>I'm a self-taught programmer and love to build things with emerging web technologies. Although I'm aiming for a front-end position I also study the backend so 
                 I can have a complete understanding of the whole picture.

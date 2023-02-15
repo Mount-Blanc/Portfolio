@@ -1,12 +1,13 @@
-body{
-  background-color: #231C07;
+.background {
+  background-color: #00b4ff;
 }
 img {
     height:30px;
 }
 
 h1 {
- color: rgba(158,24,31,255)
+ color: rgba(158,24,31,255);
+ margin-top: 0;
 }
 
 li {

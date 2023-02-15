@@ -1,9 +1,10 @@
+body {
+  background-color: black;
+}
 .name {
-  color:rgba(158,24,31,255);
+  color: rgba(158,24,31,255);
 
 }
-
-
 
   .stars {
     background-color: #000;
