@@ -5,6 +5,7 @@ import {useState,useEffect} from 'react'
 import Animation from './Animation'
 import Footer from './Footer'
 import Cloud from './Cloud'
+import Cloud2 from './Cloud/Cloud2'
 
 function Home () {
 
@@ -30,7 +31,7 @@ function Home () {
                 <span className='space-invader space-invader-2 classic'></span>=<a href=''>contact </a>
                 </li>
             </ul>
-<Cloud/>
+<Cloud2/>
         <Skills  />
         <Projects/>
         <Footer/>
