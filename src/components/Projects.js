@@ -1,54 +1,89 @@
-import Card from './Card'
-import './Projects.css'
-import CountryInfo from '../assets/imgs/CountryInfo.png'
-import Ecommerce from '../assets/imgs/E-commerce.png'
-import letusfaire from '../assets/imgs/letusfaire.png'
+import Card from "./Card";
+import "./Projects.css";
+import CountryInfo from "../assets/imgs/CountryInfo.png";
+import Ecommerce from "../assets/imgs/E-commerce.png";
+import letusfaire from "../assets/imgs/letusfaire.png";
 
+function Projects() {
+  const projects = [
+    {
+      name: "CountryInfo",
+      image: CountryInfo,
+      Weblink: "https://countryinfo.herokuapp.com/",
+      githublink: "https://github.com/Mount-Blanc/CountryInfo",
+      react:
+      <img className="cardIcon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />,
+      graphql:
+      <img className="cardIcon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain-wordmark.svg" />,
+      node:
+      <img className="cardIcon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />,
+      express:
+      <img className="cardIcon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" />,
+      heroku:
+      <img className="cardIcon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain-wordmark.svg" />
+    
+    },
+    {
+      name: "Let-Us-Faire",
+      image: letusfaire,
+      Weblink: "https://let-us-faire.herokuapp.com/",
+      githublink: "https://github.com/Mount-Blanc/Let-Us-Faire",
+      react:
+      <img className="cardIcon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />,
 
-function Projects () {
-    const projects = [
-            {
-              name: 'CountryInfo',
-              image: CountryInfo,
-              Weblink: 'https://countryinfo.herokuapp.com/',
-              githublink: 'https://github.com/Mount-Blanc/CountryInfo'
-            },
-            {
-              name: 'Let-Us-Faire',
-              image: letusfaire,
-              Weblink: 'https://let-us-faire.herokuapp.com/',
-              githublink: 'https://github.com/Mount-Blanc/Let-Us-Faire' 
-            },
-            {
-                name: 'E-Commerce',
-                image: Ecommerce,
-                Weblink: 'https://fictionalecommerce.herokuapp.com/',
-                githublink: 'https://github.com/Mount-Blanc/E-commerce'
-               },
-              {
-                name: 'Coming Soon',
-              },
-          ];
-       
-          return (            
-            <>
-              <h1>My Projects</h1>
-            <div className="projectContainer">
-              {projects.map((project) => (
-                <Card className="project" key={project.name}>
-                  <h3>{project.name}</h3>
-                  <a href={project.link}>
-                    <img className='img' src={project.image} alt={project.name} />
-                  </a>
-                  <div>
-                    <button><a href={project.Weblink} >Visit Site</a></button>
-                    <button><a href={project.githublink} >View Code</a></button>
-                  </div>
-                </Card>
-              ))}
+      firebase:
+      <img className="cardIcon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg" />,
+          
+      bootstrap:
+      <img className="cardIcon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" />,
+      
+      heroku:
+      <img className="cardIcon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain-wordmark.svg" />
+    },
+    {
+      name: "E-Commerce",
+      image: Ecommerce,
+      Weblink: "https://fictionalecommerce.herokuapp.com/",
+      githublink: "https://github.com/Mount-Blanc/E-commerce",
+      react:
+      <img className="cardIcon"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />,
+      heroku:
+      <img className="cardIcon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain-wordmark.svg" />
+    },
+    {
+      name: "Coming Soon",
+    },
+  ];
+
+  return (
+    <>
+      <h1>My Projects</h1>
+      <div className="projectContainer ">
+        {projects.map((project) => (
+          <Card className="project" key={project.name}>
+            <div className="cardContainer">
+              <div>
+                <h3>{project.name}</h3>
+                <h5>Technologies</h5>
+                {project.react}{project.bootstrap}{project.graphql}{project.node}{project.express}{project.firebase}{project.heroku}
+                <h5>Description</h5>
+              </div>
+              <div>
+                <img className="img" src={project.image} alt={project.name} />
+              </div></div>
+            <div>
+              <button>
+                <a href={project.Weblink}>Visit Site</a>
+              </button>
+              <button>
+                <a href={project.githublink}>View Code</a>
+              </button>
             </div>
-            </>
-          );
-        };
-        
-export default Projects
+          </Card>
+        ))}
+      </div>
+    </>
+  );
+}
+
+export default Projects;

@@ -1,5 +1,4 @@
 import "./App.css";
-import Music from "./components/Music";
 import React from "react";
 import Home from "./components/Home";
 

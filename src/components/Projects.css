@@ -1,6 +1,16 @@
 .projectContainer {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cardContainer {
+    display: flex;
     justify-content: space-between;
+}
+
+.cardIcon {
+    height:60px
 }
 
 button {
@@ -11,6 +21,7 @@ button {
 }
 .img {
     height: 150px;
+    border-radius: 10px;
 }
 a {
     text-decoration: none;
