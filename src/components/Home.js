@@ -4,6 +4,7 @@ import Projects from './Projects'
 import {useState,useEffect} from 'react'
 import Animation from './Animation'
 import Footer from './Footer'
+import Cloud from './Cloud'
 
 function Home () {
 
@@ -11,6 +12,7 @@ function Home () {
 
     return(
         <div className='background'   >
+            <Cloud/>
           <h1>About Me</h1>
             <p>I'm a self-taught programmer and love to build things with emerging web technologies. Although I'm aiming for a front-end position I also study the backend so 
                 I can have a complete understanding of the whole picture.
@@ -28,7 +30,7 @@ function Home () {
                 <span className='space-invader space-invader-2 classic'></span>=<a href=''>contact </a>
                 </li>
             </ul>
-
+<Cloud/>
         <Skills  />
         <Projects/>
         <Footer/>
