@@ -4,8 +4,9 @@ import Projects from './Projects'
 import {useState,useEffect} from 'react'
 import Animation from './Animation'
 import Footer from './Footer'
-import Cloud from './Cloud'
+import Cloud from './Cloud/Cloud'
 import Cloud2 from './Cloud/Cloud2'
+import Cloud3 from './Cloud/Cloud3'
 
 function Home () {
 
@@ -33,6 +34,7 @@ function Home () {
             </ul>
 <Cloud2/>
         <Skills  />
+        <Cloud3/>
         <Projects/>
         <Footer/>
         </div>
