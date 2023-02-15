@@ -1,18 +1,17 @@
-import './App.css';
-import Music from './components/Music';
+import "./App.css";
+import Music from "./components/Music";
 import React from "react";
-import Home from './components/Home';
+import Home from "./components/Home";
 
 import {
   createBrowserRouter,
   RouterProvider,
   Route,
-  createRoutesFromElements
+  createRoutesFromElements,
 } from "react-router-dom";
 
-import Root from './components/Root';
-import Welcome from './components/Welcome';
-import Transition from './components/Animation';
+import Root from "./components/Root";
+import Welcome from "./components/Welcome";
 
 const router = createBrowserRouter([
   {
@@ -20,28 +19,22 @@ const router = createBrowserRouter([
     element: <Root />,
     children: [
       {
-        path:"/",
-        element:<Welcome/>
+        path: "/",
+        element: <Welcome />,
       },
-         {
+      {
         path: "/home",
         element: <Home />,
       },
-    ]
-  },   
-
     ],
-    );
-
-
-
+  },
+]);
 
 function App() {
- 
   return (
     <>
-    <RouterProvider router={router}/>    
- </>
+      <RouterProvider router={router} />
+    </>
   );
 }
 

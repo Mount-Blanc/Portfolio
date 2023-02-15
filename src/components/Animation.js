@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { useTransition, animated } from '@react-spring/web'
-import { Link } from 'react-router-dom';
 import spaceinvaders from './spaceinvaders.png';
 import "./Animation.css"
 
