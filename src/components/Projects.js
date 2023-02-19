@@ -17,6 +17,12 @@ function Projects() {
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
         />
       ),
+      typescript: (
+        <img
+          className="cardIcon"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+        />
+      ),
       graphql: (
         <img
           className="cardIcon"
@@ -139,6 +145,7 @@ function Projects() {
                 <h3>{project.name}</h3>
                 <h5>Technologies</h5>
                 {project.react}
+                {project.typescript}
                 {project.bootstrap}
                 {project.graphql}
                 {project.node}
