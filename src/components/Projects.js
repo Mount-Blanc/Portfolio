@@ -5,7 +5,7 @@ import Ecommerce from "../assets/imgs/E-commerce.png";
 import letusfaire from "../assets/imgs/letusfaire.png";
 
 function Projects() {
-  const projects = [
+  const Reactprojects = [
     {
       name: "CountryInfo",
       image: CountryInfo,
@@ -130,7 +130,7 @@ function Projects() {
         "A fictional E-commerce website. This was a case study on shopping carts. The data is from a rest api",
     },
     {
-      name: "Coming Soon",
+      name: "Chronograph",
     },
   ];
 
@@ -138,7 +138,7 @@ function Projects() {
     <>
       <h1>My Projects</h1>
       <div className="projectContainer ">
-        {projects.map((project) => (
+        {Reactprojects.map((project) => (
           <Card className="project" key={project.name}>
             <div className="cardContainer">
               <div>
