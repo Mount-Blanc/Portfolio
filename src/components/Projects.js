@@ -129,14 +129,31 @@ function Projects() {
       description:
         "A fictional E-commerce website. This was a case study on shopping carts. The data is from a rest api",
     },
+  ];
+  const ReactNativeprojects = [
+    
     {
       name: "Chronograph",
     },
   ];
+  const Vueprojects = [
+    {
+      name:"MuseumArt",
+      image:'',
+      weblink:'',
+      githublink:"https://github.com/Mount-Blanc/ArtFromMetropolitanMuseum",
+      vue:(
+        <img 
+        className="cardIcon"
+       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original-wordmark.svg"></img>
+      )
+    }
+  ]
 
   return (
     <>
       <h1>My Projects</h1>
+      <h2>React Projects</h2>
       <div className="projectContainer ">
         {Reactprojects.map((project) => (
           <Card className="project" key={project.name}>
@@ -152,6 +169,56 @@ function Projects() {
                 {project.express}
                 {project.firebase}
                 {project.heroku}
+                <h5>Description</h5>
+                <p>{project.description}</p>
+              </div>
+              <div className="imgContainer">
+                <img className="img" src={project.image} alt={project.name} />
+              </div>
+            </div>
+            <div>
+              <button>
+                <a href={project.Weblink}>Visit Site</a>
+              </button>
+              <button>
+                <a href={project.githublink}>View Code</a>
+              </button>
+            </div>
+          </Card>
+        ))}
+<h2>Vue Projects</h2>
+{Vueprojects.map((project) => (
+          <Card className="project" key={project.name}>
+            <div className="cardContainer">
+              <div>
+                <h3>{project.name}</h3>
+                <h5>Technologies</h5>
+                {project.vue}
+                <h5>Description</h5>
+                <p>{project.description}</p>
+              </div>
+              <div className="imgContainer">
+                <img className="img" src={project.image} alt={project.name} />
+              </div>
+            </div>
+            <div>
+              <button>
+                <a href={project.Weblink}>Visit Site</a>
+              </button>
+              <button>
+                <a href={project.githublink}>View Code</a>
+              </button>
+            </div>
+          </Card>
+        ))}
+        <h2>React Native Projects</h2>
+        {ReactNativeprojects.map((project) => (
+          <Card className="project" key={project.name}>
+            <div className="cardContainer">
+              <div>
+                <h3>{project.name}</h3>
+                <h5>Technologies</h5>
+                {project.vue}
                 <h5>Description</h5>
                 <p>{project.description}</p>
               </div>
