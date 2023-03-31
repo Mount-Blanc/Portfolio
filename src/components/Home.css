@@ -30,6 +30,16 @@ ul {
     margin-right: 50px;
 }
  
+@media only screen and (max-width: 853px) {
+
+.introduction {
+  padding-inline:15px
+}
+}
+
+
+
+
   
   .space-invader-1 {
     box-shadow:

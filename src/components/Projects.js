@@ -1,8 +1,6 @@
 import Card from "./Card";
 import "./Projects.css";
 import CountryInfo from "../assets/imgs/CountryInfo.png";
-import Ecommerce from "../assets/imgs/E-commerce.png";
-import letusfaire from "../assets/imgs/letusfaire.png";
 
 function Projects() {
   const Reactprojects = [
@@ -52,24 +50,24 @@ function Projects() {
     },
   ];
   const ReactNativeprojects = [
-    
     {
       name: "Chronograph",
     },
   ];
   const Vueprojects = [
     {
-      name:"MuseumArt",
-      image:'',
-      weblink:'',
-      githublink:"https://github.com/Mount-Blanc/ArtFromMetropolitanMuseum",
-      vue:(
-        <img 
-        className="cardIcon"
-       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original-wordmark.svg"></img>
-      )
-    }
-  ]
+      name: "MuseumArt",
+      image: "",
+      weblink: "",
+      githublink: "https://github.com/Mount-Blanc/ArtFromMetropolitanMuseum",
+      vue: (
+        <img
+          className="cardIcon"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original-wordmark.svg"
+        ></img>
+      ),
+    },
+  ];
 
   return (
     <>
@@ -107,8 +105,8 @@ function Projects() {
             </div>
           </Card>
         ))}
-<h2>Vue Projects</h2>
-{Vueprojects.map((project) => (
+        <h2>Vue Projects</h2>
+        {Vueprojects.map((project) => (
           <Card className="project" key={project.name}>
             <div className="cardContainer">
               <div>
