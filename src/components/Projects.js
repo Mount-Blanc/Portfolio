@@ -59,7 +59,7 @@ function Projects() {
     {
       name: "MuseumArt",
       image: "",
-      weblink: "",
+      weblink: "https://mount-blanc.github.io/ArtFromMetropolitanMuseum/",
       githublink: "https://github.com/Mount-Blanc/ArtFromMetropolitanMuseum",
       vue: (
         <img
@@ -98,10 +98,10 @@ function Projects() {
             </div>
             <div>
             
-                <a className="projectlinks" href={project.Weblink}>Visit Site</a>
+                <a className="projectlinks" target="_blank" href={project.Weblink}>Visit Site</a>
               
             
-                <a className="projectlinks" href={project.githublink}>View Code</a>
+                <a className="projectlinks" target="_blank" href={project.githublink}>View Code</a>
               
             </div>
           </Card>
@@ -123,10 +123,10 @@ function Projects() {
             </div>
             <div>
             
-                <a className="projectlinks" href={project.weblink}>Visit Site</a>
+                <a className="projectlinks" target="_blank" href={project.weblink}>Visit Site</a>
               
             
-                <a className="projectlinks" href={project.githublink}>View Code</a>
+                <a className="projectlinks" target="_blank" href={project.githublink}>View Code</a>
               
             </div>
           </Card>
