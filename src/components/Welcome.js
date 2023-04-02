@@ -34,7 +34,7 @@ function Welcome() {
             aspiring front-end web developer
           </p>
 
-          {isVisible && <button onClick={clickHandler}>Click me</button>}
+          {isVisible && <a className="clickme" onClick={clickHandler}>Click me</a>}
         </div>
       )}
     </>

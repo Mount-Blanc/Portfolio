@@ -97,12 +97,12 @@ function Projects() {
               </div>
             </div>
             <div>
-              <button>
-                <a href={project.Weblink}>Visit Site</a>
-              </button>
-              <button>
-                <a href={project.githublink}>View Code</a>
-              </button>
+            
+                <a className="projectlinks" href={project.Weblink}>Visit Site</a>
+              
+            
+                <a className="projectlinks" href={project.githublink}>View Code</a>
+              
             </div>
           </Card>
         ))}
@@ -122,12 +122,12 @@ function Projects() {
               </div>
             </div>
             <div>
-              <button>
-                <a href={project.Weblink}>Visit Site</a>
-              </button>
-              <button>
-                <a href={project.githublink}>View Code</a>
-              </button>
+            
+                <a className="projectlinks" href={project.weblink}>Visit Site</a>
+              
+            
+                <a className="projectlinks" href={project.githublink}>View Code</a>
+              
             </div>
           </Card>
         ))}
@@ -147,12 +147,12 @@ function Projects() {
               </div>
             </div>
             <div>
-              <button>
-                <a href={project.Weblink}>Visit Site</a>
-              </button>
-              <button>
-                <a href={project.githublink}>View Code</a>
-              </button>
+            
+                <a className="projectlinks" href={project.Weblink}>Visit Site</a>
+              
+            
+                <a className="projectlinks" href={project.githublink}>View Code</a>
+              
             </div>
           </Card>
         ))}
