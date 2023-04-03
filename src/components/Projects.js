@@ -2,6 +2,7 @@ import Card from "./Card";
 import "./Projects.css";
 import CountryInfo from "../assets/imgs/CountryInfo.png";
 import ReactNow from './REactNow.png'
+import ArtFromMetro from './ArtProject.png'
 
 function Projects() {
   const Reactprojects = [
@@ -74,7 +75,7 @@ function Projects() {
   const Vueprojects = [
     {
       name: "MuseumArt",
-      image: "",
+      image: ArtFromMetro,
       weblink: "https://mount-blanc.github.io/ArtFromMetropolitanMuseum/",
       githublink: "https://github.com/Mount-Blanc/ArtFromMetropolitanMuseum",
       vue: (
