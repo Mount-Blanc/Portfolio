@@ -51,7 +51,8 @@ function Projects() {
   ];
   const ReactNativeprojects = [
     {
-      name: "Chronograph",
+      name: "ReactNow",
+      weblink:"https://mount-blanc.github.io/ReactNow/",
       githublink:"https://github.com/Mount-Blanc/ReactNow",
     },
     {
@@ -155,7 +156,7 @@ function Projects() {
             </div>
             <div>
             
-                <a className="projectlinks linkcontainer" href={project.Weblink}>Visit Site</a>
+                <a className="projectlinks linkcontainer" href={project.weblink}>Visit Site</a>
               
             
                 <a className="projectlinks linkcontainer" href={project.githublink}>View Code</a>
