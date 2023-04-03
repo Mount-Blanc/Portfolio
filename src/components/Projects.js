@@ -54,6 +54,13 @@ function Projects() {
       name: "Chronograph",
       githublink:"https://github.com/Mount-Blanc/ReactNow",
     },
+    {
+      name:"Grocery",
+      image:"",
+      weblink:"",
+      githublink:""
+
+    }
   ];
   const Vueprojects = [
     {
@@ -143,7 +150,7 @@ function Projects() {
                 <p>{project.description}</p>
               </div>
               <div className="imgContainer">
-                <img className="img" src={project.image} alt={project.name} />
+                <img className="img" src={project.image} alt={"Coming Soon"} />
               </div>
             </div>
             <div>
