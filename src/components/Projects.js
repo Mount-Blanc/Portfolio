@@ -1,6 +1,7 @@
 import Card from "./Card";
 import "./Projects.css";
 import CountryInfo from "../assets/imgs/CountryInfo.png";
+import ReactNow from './REactNow.png'
 
 function Projects() {
   const Reactprojects = [
@@ -52,8 +53,15 @@ function Projects() {
   const ReactNativeprojects = [
     {
       name: "ReactNow",
+      image:ReactNow,
       weblink:"https://mount-blanc.github.io/ReactNow/",
       githublink:"https://github.com/Mount-Blanc/ReactNow",
+      react:(
+        <img
+        className="cardIcon"
+         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"/>
+      ),
+      description:"A Chronograph and Reaction timer. Let's move that body !"
     },
     {
       name:"Grocery",
@@ -75,6 +83,7 @@ function Projects() {
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original-wordmark.svg"
         ></img>
       ),
+      description:"Collects data about art pieces from museums. Provides an easier way to study art."
     },
   ];
 
@@ -146,7 +155,7 @@ function Projects() {
               <div>
                 <h3>{project.name}</h3>
                 <h5>Technologies</h5>
-                {project.vue}
+                {project.react}
                 <h5>Description</h5>
                 <p>{project.description}</p>
               </div>
