@@ -156,10 +156,10 @@ function Projects() {
             </div>
             <div>
             
-                <a className="projectlinks linkcontainer" href={project.weblink}>Visit Site</a>
+                <a className="projectlinks linkcontainer" target="_blank" href={project.weblink}>Visit Site</a>
               
             
-                <a className="projectlinks linkcontainer" href={project.githublink}>View Code</a>
+                <a className="projectlinks linkcontainer" target="_blank" href={project.githublink}>View Code</a>
               
             </div>
           </Card>
