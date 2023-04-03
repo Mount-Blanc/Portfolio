@@ -76,7 +76,7 @@ function Projects() {
       <h2>React Projects</h2>
       <div className="projectContainer ">
         {Reactprojects.map((project) => (
-          <Card className="project" key={project.name}>
+          <Card className="project"  key={project.name}>
             <div className="cardContainer">
               <div>
                 <h3>{project.name}</h3>
@@ -98,10 +98,10 @@ function Projects() {
             </div>
             <div>
             
-                <a className="projectlinks" target="_blank" href={project.Weblink}>Visit Site</a>
+                <a className="projectlinks linkcontainer" target="_blank" href={project.Weblink}>Visit Site</a>
               
             
-                <a className="projectlinks" target="_blank" href={project.githublink}>View Code</a>
+                <a className="projectlinks linkcontainer" target="_blank" href={project.githublink}>View Code</a>
               
             </div>
           </Card>
@@ -123,10 +123,10 @@ function Projects() {
             </div>
             <div>
             
-                <a className="projectlinks" target="_blank" href={project.weblink}>Visit Site</a>
+                <a className="projectlinks linkcontainer" target="_blank" href={project.weblink}>Visit Site</a>
               
             
-                <a className="projectlinks" target="_blank" href={project.githublink}>View Code</a>
+                <a className="projectlinks linkcontainer" target="_blank" href={project.githublink}>View Code</a>
               
             </div>
           </Card>
@@ -148,10 +148,10 @@ function Projects() {
             </div>
             <div>
             
-                <a className="projectlinks" href={project.Weblink}>Visit Site</a>
+                <a className="projectlinks linkcontainer" href={project.Weblink}>Visit Site</a>
               
             
-                <a className="projectlinks" href={project.githublink}>View Code</a>
+                <a className="projectlinks linkcontainer" href={project.githublink}>View Code</a>
               
             </div>
           </Card>

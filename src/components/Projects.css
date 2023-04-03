@@ -57,11 +57,21 @@
     }
   }
 
+  @media only screen and (max-width: 650px) {
+
+.linkcontainer {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+  }
+
   @media only screen and (max-width: 861px) {
     .cardContainer {
       flex-direction: column;
       align-items: center;
       height: auto;
+      margin:1.5rem;
     }
 
     .cardIcon {
@@ -70,5 +80,6 @@
     .imgContainer {
         display: flex;
         flex-direction: column;
+        margin:1.5rem;
     }
   }

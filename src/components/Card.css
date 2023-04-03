@@ -20,12 +20,14 @@
 @media only screen and (max-width: 376px) {
     .card {
         width: 280px;
-        padding:10px
+        padding:10px;
+        margin:1.5rem;
     }
   }
   @media only screen and (max-width: 861px) {
     .card {
         width: 580px;
+        padding-bottom: 3rem;
     }
   }
 
